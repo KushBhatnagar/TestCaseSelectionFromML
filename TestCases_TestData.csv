@@ -621,7 +621,7 @@ OpenId Metadata Discovery API changes",1
     Then Response status code should be 400 for scope reduction POST API
     And Response body should contains invalid grant type error message for scope reduction POST API",No,Yes,No,,,,0
 225,R20.1.2,API/Functionality,Verify Granular Scope : Verify granular scope assigned for authorization grant type,,No,No,No,,,,0
-226,R20.1.2,API/Functionality,Verify Granular Scope : Verify scopes for authorization grant type,,No,,No,,,,0
+226,R20.1.2,API/Functionality,Verify Granular Scope : Verify scopes for authorization grant type,,No,No,No,,,,0
 227,R20.1.2,API/Functionality,Verify Granular Scope: Verify granular scope assigned for Client credential grant type,,No,No,No,,,,0
 228,R20.1.2,API/Functionality,Verify Granular Scope: Verify non assigned scopes for Client credential grant type,,No,No,No,,,,0
 229,R20.1.2,API/Functionality,Verify Granular Scope: Verify granular scope assigned for Client Delegation Toke Exchange grant type,,No,No,No,,,,0
