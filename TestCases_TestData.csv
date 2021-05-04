@@ -1,13 +1,13 @@
 ﻿Id,ReleaseID,Type of Test Case,TestCaseTitle,TestCaseDescription,Error Prone Test Cases,Automation Status,Any Defect,JIRA Bug ID,Bug Description,GIT Commit Message,Target
-1,R20.2.1,Sanity,Get the short and detailed health status APIs,"    When I call short health status API
-    Then Response status code should be 200
-    And JSON response should have HEALTHY
-    When I call detailed health status API
-    Then Response status code should be 200
-    And JSON Response should have detailed health status",No,Yes,Yes,WPPX1-949,AMI Refresh for RAW services,Fix for WPPX1-946 AMI refresh,1
+1,R20.2.1,Sanity,Get the short and detailed health status APIs,"When I call short health status API
+Then Response status code should be 200
+And JSON response should have HEALTHY
+When I call detailed health status API
+Then Response status code should be 200
+And JSON Response should have detailed health status",No,Yes,Yes,WPPX1-949,AMI Refresh for RAW services,Fix for WPPX1-946 AMI refresh,1
 2,R20.2.1,Sanity,Get the AuthZ service metadata,"When I call metadata data API
-    Then Response status code should be 200
-    And JSON response should have valid endpoints",No,Yes,Yes,WPPX1-949,AMI Refresh for RAW services,"Fix for WPPX1-946 AMI refresh
+Then Response status code should be 200
+And JSON response should have valid endpoints",No,Yes,Yes,WPPX1-949,AMI Refresh for RAW services,"Fix for WPPX1-946 AMI refresh
 OpenId Metadata Discovery API changes",1
 3,R20.2.1,Sanity,Get the public keys for validating token,"When I call GET Json web keys discovery API
       Then Response status should be 200 for GET json web keys discovery API
